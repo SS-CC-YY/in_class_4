@@ -1,0 +1,1 @@
+This is the in class activity for week 7 CS 362
