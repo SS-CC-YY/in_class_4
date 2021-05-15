@@ -1,6 +1,7 @@
 import collections
 
 def word_count(in_put):
+    in_put = in_put.strip()
     s_list = in_put.split(' ')
     [s_list.remove(item) for item in s_list if item in ",."]
     count = collections.Counter(s_list)
